@@ -1,6 +1,6 @@
 $(document).ready(function() {
     $('#fullpage').fullpage({
-        anchors:['homePage', 'firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'fifthPage', 'sixthPage'],
+        anchors:['homePage', 'clipins', 'wavy', 'halos', 'curly', 'kinky', 'aboutus'],
     	menu: '#menu',
     	scrollingSpeed: 1000,
     });
