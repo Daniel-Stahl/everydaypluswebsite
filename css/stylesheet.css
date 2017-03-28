@@ -159,51 +159,55 @@ ul.fa-ul {
 
 .footer {
 	position: absolute;
-    bottom: 80px;
-    width: 100%;
-    height: 60px;
-    background-color: white;
+  bottom: 80px;
+  width: 100%;
+  height: 60px;
+  background-color: white;
 }
 
 @media only screen 
   and (max-device-width: 768px)
   and (min-device-width: 426px) 
   and (-webkit-min-device-pixel-ratio: 2) { 
-  	.navbar-brand > img {
+  .navbar-brand > img {
 		height: 40px;
 	}
 
-  	li.nav-item {
+  li.nav-item {
 		border-bottom: 1px solid lightgrey;
 	}
 
-  	.content_img {
-  		text-align: center;
-  	}
+	.content_img {
+		text-align: center;
+	}
 
-  	.content_img img {
-  		width: 280px;
-  	}
+	.content_img img {
+		width: 280px;
+	}
 
-  	.content {
-  		margin-top: 1rem;
-  	}
+	.content {
+		margin-top: 1rem;
+	}
 
-  	.content h1 {
-  		text-align: center;
-  		font-size: 2rem;
-  	}
+	.content h1 {
+		text-align: center;
+		font-size: 2rem;
+	}
 
-  	.content p {
-  		font-size: .8rem;
-  	}
+	.content p {
+		font-size: .8rem;
+	}
+
+  hr {
+    display: none;
+  }
 }
 
 @media only screen 
   and (max-device-width: 425px)
   and (min-device-width: 320px)
   and (-webkit-min-device-pixel-ratio: 1) {
-  	.navbar-brand > img {
+  .navbar-brand > img {
 		height: 40px;
 	}
 
@@ -211,45 +215,48 @@ ul.fa-ul {
 		border-bottom: 1px solid lightgrey;
 	}
 
-  	.content_img {
-  		text-align: center;
-  	}
+	.content_img {
+		text-align: center;
+	}
 
-  	.content_img img {
-  		width: 220px;
-  	}
+	.content_img img {
+		width: 220px;
+	}
 
-  	.content {
-  		margin-top: 1rem;
-  	}
+	.content {
+		margin-top: 1rem;
+	}
 
-  	.content h1 {
-  		text-align: center;
-  		font-size: 2rem;
-  	}
+	.content h1 {
+		text-align: center;
+		font-size: 2rem;
+	}
 
-  	.content p {
-  		font-size: .8rem;
-  	}
+	.content p {
+		font-size: .8rem;
+	}
 
-  	.about {
-  		margin-top: 5px;
-  	}
+	.about {
+		margin-top: 5px;
+	}
 
-  	.about h1 {
-  		font-size: 2rem;
-  	}
+	.about h1 {
+		font-size: 2rem;
+	}
 
-  	.about p {
-  		font-size: .8rem
-  	}
+	.about p {
+		font-size: .8rem
+	}
 
-  	.mission h1 {
-  		font-size: 2rem;
-  	}
+	.mission h1 {
+		font-size: 2rem;
+	}
 
-  	.mission p {
-  		font-size: .8rem;
-  	}
+	.mission p {
+		font-size: .8rem;
+	}
 
+  hr {
+    display: none;
   }
+}
